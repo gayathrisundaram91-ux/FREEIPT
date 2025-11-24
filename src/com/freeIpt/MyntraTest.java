@@ -67,7 +67,7 @@ public class MyntraTest {
 		
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File desc=new File("C:\\Users\\Gayathri Vignesh\\eclipse-workspace\\freeIpt\\screenshots"+   +".png");
+		File desc=new File("C:\\Users\\Gayathri Vignesh\\eclipse-workspace\\freeIpt\\screenshots"+   ".png");
 		
 	}
 	
@@ -78,7 +78,13 @@ public class MyntraTest {
 		System.out.println(text);
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.)
+//		wait.until(ExpectedConditions.)
+		
+		
+		
+		
+		
+		
 	}
 	public static void main(String[] args) {
 		launchBrowser();
